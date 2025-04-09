@@ -1,0 +1,23 @@
+[package]
+name = "decentralized_voting_arch"
+version = "0.1.0"
+authors = ["Amarjeet Kumar 0xamarjeet@gmail.com"]
+edition = "2021"
+description = "A decentralized voting smart contract for the Arch network."
+license = "MIT"
+
+[dependencies]
+# Borsh for serialization/deserialization.
+borsh = "0.10"
+
+# Arch network program library.
+# If the arch_program crate is not published on crates.io, you may need to use a path dependency:
+# arch-program = { path = "../arch_program" }
+arch-program = "0.1"
+
+[lib]
+# Compile as a C-compatible dynamic library for blockchain deployment.
+crate-type = ["cdylib", "rlib"]
+
+
+
