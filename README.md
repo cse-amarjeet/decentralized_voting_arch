@@ -57,12 +57,3 @@ Contributions are welcome! Feel free to fork the repository and open pull reques
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-## Hackathon Submission Details
-This project is submitted as part of the weekly developer bounty program on the Arch network. It is evaluated based on functionality, security, and accuracy, along with comprehensive unit testing to verify all edge cases. Even if the code isn’t fully complete, submissions are considered for prizes and a chance to win exclusive access to the Arch recruiting channel.
-
----
-
-Happy coding, and good luck with your hackathon submission!
-```
-
-This README provides a comprehensive overview, instructions, and context for your project, ensuring evaluators can easily understand your implementation and process.
